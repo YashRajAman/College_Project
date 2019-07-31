@@ -3,8 +3,6 @@
 from pyftpdlib.authorizers import DummyAuthorizer
 from pyftpdlib.handlers import FTPHandler
 from pyftpdlib.servers import FTPServer
-from pyftpdlib.servers import ThreadedFTPServer
-import threading
 import tkinter as tk
 from tkinter import messagebox
 import MySQLdb as sql
